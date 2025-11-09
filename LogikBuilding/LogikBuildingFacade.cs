@@ -1,10 +1,11 @@
-﻿using System;
+﻿using LogikBuilding.EasyProblems;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LogikBuilding.EasyProblems;
+namespace LogikBuilding;
 public class LogikBuildingFacade
 {
     public string OddEven(int n)
