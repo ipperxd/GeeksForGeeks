@@ -13,4 +13,11 @@ public class LogikBuildingFacade
         OddOrEven oddOrEven = new OddOrEven();
         return oddOrEven.OddEven(n);
     }
+
+    public List<string> MutiplicationTable(int n)
+    {
+        MultiplicationTable multiplicationTable = new MultiplicationTable();
+        return multiplicationTable.MultiplicationTableName(n);
+
+    }
 }
