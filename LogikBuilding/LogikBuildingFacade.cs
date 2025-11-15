@@ -26,4 +26,19 @@ public class LogikBuildingFacade
         SumOfNaturalsNumbers sumOfNaturalsNumbers = new SumOfNaturalsNumbers();
         return sumOfNaturalsNumbers.NumberOfNaturalsNumbers(n);
     }
+
+    public int ReturnSumOfSquaredNaturals(int n)
+    {
+        SumOfSquaredNaturals sumOfSquaredNaturals = new SumOfSquaredNaturals();
+        return sumOfSquaredNaturals.NumberOfSquaredNaturals(n);
+    }
+
+    public int[] SwapTwoNumbersFacade(int numbers1, int numbers2)
+    {
+        SwapTwoNumbers swapTwoNumbers = new SwapTwoNumbers();
+        var result = swapTwoNumbers.SimpleSwap(numbers1, numbers2);
+        return result; 
+    }
+
+
 }

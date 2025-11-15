@@ -1,7 +1,11 @@
-﻿namespace GeeksForGeeksTest
+﻿using LogikBuilding;
+
+namespace GeeksForGeeksTest
 {
     public class LogicProblemsTest
     {
+        LogikBuildingFacade facade = new LogikBuildingFacade();
+
         [Fact]
         public void OddOrEven()
         {
@@ -9,7 +13,7 @@
             int number1 = 1;
             int number2 = 2;
 
-            var facade = new LogikBuilding.LogikBuildingFacade();
+            
 
             // act
             string result1 = facade.OddEven(number1);
@@ -26,7 +30,6 @@
             //arrange
             int number1 = 4;
 
-            var facade = new LogikBuilding.LogikBuildingFacade();
 
             // act
             var result1 = facade.MutiplicationTable(number1);
@@ -41,12 +44,37 @@
         {
             int number = 5;
 
-            var facade = new LogikBuilding.LogikBuildingFacade();
-
             var result = facade.ReturnNaturalSum(number);
 
             Assert.Equal(15, result);
 
+        }
+
+        [Fact]
+        public void SumOfSquaredNaturals()
+        {
+            int number = 8;
+            
+            int result = 0;
+
+            result = facade.ReturnSumOfSquaredNaturals(number);
+
+            Assert.Equal(204, result);
+        }
+
+        [Fact]
+        public void SwapToNumbers()
+        {
+            int number1 = 2;
+            int number2 = 3;
+
+            var result = facade.SwapTwoNumbersFacade(number1, number2);
+
+            number1 = result[0];
+            number2 = result[1];
+
+            Assert.Equal(3, number1);
+            Assert.Equal(2, number2);
         }
     }
 }
