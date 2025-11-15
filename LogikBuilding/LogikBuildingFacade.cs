@@ -20,4 +20,10 @@ public class LogikBuildingFacade
         return multiplicationTable.MultiplicationTableName(n);
 
     }
+
+    public int ReturnNaturalSum(int n)
+    {
+        SumOfNaturalsNumbers sumOfNaturalsNumbers = new SumOfNaturalsNumbers();
+        return sumOfNaturalsNumbers.NumberOfNaturalsNumbers(n);
+    }
 }

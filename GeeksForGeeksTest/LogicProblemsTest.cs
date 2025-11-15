@@ -35,5 +35,18 @@
             Assert.Contains("4 * 1 = 4", result1);
             Assert.Contains("4 * 3 = 12", result1);
         }
+
+        [Fact]
+        public void SumOfNaturalNumbers()
+        {
+            int number = 5;
+
+            var facade = new LogikBuilding.LogikBuildingFacade();
+
+            var result = facade.ReturnNaturalSum(number);
+
+            Assert.Equal(15, result);
+
+        }
     }
 }
