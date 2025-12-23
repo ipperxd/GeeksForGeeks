@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LogikBuilding\LogikBuilding.csproj" />
+    <ProjectReference Include="..\TwoPointers\TwoPointers.csproj" />
   </ItemGroup>
 
   <ItemGroup>
