@@ -1,6 +1,6 @@
 ﻿using LogikBuilding;
 
-namespace GeeksForGeeksTest;
+namespace GeeksForGeeksTest.LogicProblems;
 public class BasicLogicProblemsTest
 {
     BasicLogicFacade facade = new BasicLogicFacade();

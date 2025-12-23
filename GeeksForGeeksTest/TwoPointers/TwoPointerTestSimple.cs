@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TwoPointers;
+using TwoPointers.Simple;
 
-namespace GeeksForGeeksTest;
-public class TwoPointerTest
+namespace GeeksForGeeksTest.TwoPointers;
+public class TwoPointerTestSimple
 {
    TwoPointerImplementation pointerImplementation = new TwoPointerImplementation();
 

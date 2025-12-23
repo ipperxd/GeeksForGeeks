@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GeeksForGeeksTest;
+namespace GeeksForGeeksTest.LogicProblems;
 public class EasyLogicProblemsTest
 {
     EasyLogicFacade logicFacade = new EasyLogicFacade();

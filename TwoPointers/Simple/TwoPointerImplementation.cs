@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwoPointers;
+namespace TwoPointers.Simple;
 public class TwoPointerImplementation
 {
     public bool Algorithm(int[] input, int target)
