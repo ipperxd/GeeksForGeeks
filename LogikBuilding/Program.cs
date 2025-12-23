@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
-LogikBuilding.LogikBuildingFacade facade = new LogikBuilding.LogikBuildingFacade();
+LogikBuilding.BasicLogicFacade facade = new LogikBuilding.BasicLogicFacade();
 
 string OddOrEvenResult = facade.OddEven(5);
 Console.WriteLine($"The number 5 is {OddOrEvenResult}.");

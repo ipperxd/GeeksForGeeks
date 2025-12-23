@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LogikBuilding.EasyProblems;
+namespace LogikBuilding.BasicProblems;
 public class OddOrEven
 {
     public string OddEven(int n)
