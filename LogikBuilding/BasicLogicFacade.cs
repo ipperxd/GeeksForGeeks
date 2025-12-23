@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace LogikBuilding;
-public class LogikBuildingFacade
+public class BasicLogicFacade
 {
     public string OddEven(int n)
     {
@@ -38,6 +38,18 @@ public class LogikBuildingFacade
         SwapTwoNumbers swapTwoNumbers = new SwapTwoNumbers();
         var result = swapTwoNumbers.SimpleSwap(numbers1, numbers2);
         return result; 
+    }
+
+    public int DiceProblemSolution(int input)
+    {
+        DiceProblem diceProblem = new DiceProblem();
+        return diceProblem.DiceProblemSolution(input);
+    }
+
+    public int NthTermofApSoution(int a, int b, int n)
+    {
+        NthTermOfAP nthTermOfAP = new NthTermOfAP();
+        return nthTermOfAP.Solution(a, b, n);
     }
 
 
