@@ -44,4 +44,20 @@ public class EasyLogicProblemsTest
         Assert.Equal(98, result3);       // Reverse of 890 is 098 which is 98
     }
 
+    [Fact]
+    public void TestForPrimeTest()
+    {
+        // arrange
+        int primeNumber = 29;
+        int nonPrimeNumber = 30;
+        int edgeCaseNumber = 1;
+        // act
+        bool isPrime1 = logicFacade.TestForPrimeSolution(primeNumber);
+        bool isPrime2 = logicFacade.TestForPrimeSolution(nonPrimeNumber);
+        bool isPrime3 = logicFacade.TestForPrimeSolution(edgeCaseNumber);
+        // assert
+        Assert.True(isPrime1);          // 29 is a prime number
+        Assert.False(isPrime2);         // 30 is not a prime number
+        Assert.False(isPrime3);         // 1 is not a prime number
+    }
 }

@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ArrayProblems\ArrayProblems.csproj" />
     <ProjectReference Include="..\LogikBuilding\LogikBuilding.csproj" />
     <ProjectReference Include="..\TwoPointers\TwoPointers.csproj" />
   </ItemGroup>
